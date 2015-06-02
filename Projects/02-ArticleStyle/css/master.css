@@ -1,0 +1,119 @@
+h1,h2,h3,h4,h5 {
+	text-align:Center;
+	color: #222;
+	font-family: Georgia, serif;
+	font-size: 40px
+  }
+
+.sub-heading {
+ text-align: center;
+ margin: auto;
+ font:20px georgia,serif;
+ color: #999;
+}
+img {
+	display: block;
+	margin: auto;
+}
+img {
+	border: #ccc;
+}
+.text{
+	text-align: center;
+	font-size: 14px
+	color:#666;
+}
+ hr{
+ 	border:#ccc
+ }
+  h3{
+    border-style: solid;
+    border-width: 5px;
+    font-family: Georgia, serif; 
+}
+  hr {
+    border-style: solid;
+    border-width: 5px;
+}
+ h2 {
+ 	font-family:Open Sans Extra Bold;
+ 	border-width:14px;
+ 	color:#999;
+ }
+ .list2
+   font:georgia
+   margin-top: 20px;
+   color:#222
+}
+
+.head3{
+	text-align:Center;
+	color: #222;
+	font-family: Georgia, serif;
+	font-size: 20px
+  
+  .head4{
+   text-align:open sans Extra Bold;
+   font-size: 28px;
+   color:#222;
+  }
+
+
+ h3{
+ 	font:Georgia; 
+ 	font-size:20px;
+ 	color: #222:;
+    font-family: Georgia, serif;
+ }
+list-contect{
+	color: #999
+    font-size:20px;
+}
+
+.list3
+font-family:Georgia;
+font-size:16px;
+color:#666;
+
+.untellersized {
+font:Georgia;
+font-size:16px;
+color: #222;
+}
+.Fit {
+Background:#f6f6f6;
+Left border:10px;
+font:Georgia Italic;
+font-size:20px;
+font-color: #222;
+}
+
+h4 {
+	font: Open Sans Extra Bold
+    font-size:28px;
+    color:#222;
+}
+
+.in {
+	Background: #f6f6f6; 
+	Left-border:10;
+	font-family:Georgia Italic;
+	font-size:20px;
+	color:#222;
+}
+
+h5 {
+	 font:Open Sans Extra Bold;
+	 font-size:14px;
+	 color: #222;
+}
+ .part15{
+    font: open sans;
+    font-size:14px;
+    color: #666;
+  }
+  .blockquote1 {
+    font-size:19px;
+    color: #666;
+    font-family: Georgia, serif;
+  }
