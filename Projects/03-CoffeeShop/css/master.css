@@ -35,7 +35,8 @@
 		-moz-column-count:1;
 		-webkit-column-count:1;
 		margin:0;
-		left:25%;
+		left:12.5%;
+
 	}
 	div.content{
 		padding:100px 0;
@@ -62,10 +63,10 @@ p{
 }
 h1{
 	color:#fff;
-	font-size: 60px;
+	font-size: 40px;
 }
 h2{
-	font-size: 32px;
+	font-size: 60px;
 	color:#222;
 }
 h3{
@@ -157,10 +158,10 @@ footer{
 	margin-right: 10%
 }
 .hours-location{
-	margin:0 auto;
+	padding: 50px 0;
 }
 .intro{
-	font-family:Lato Regular;
+	font-family:"Lato" Regular;
 	font-size: 22px;
 	max-width:800px;
 	display:block;
@@ -215,4 +216,9 @@ p a{
 }
 a:hover{
 	color:#F4B350;
+}
+@media srceen and (min-width: 740px) {
+	h1 {
+		font-size: 32px;
+	}
 }

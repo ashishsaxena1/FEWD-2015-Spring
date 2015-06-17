@@ -3,19 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Grinders Coffee Co.</title>
-	<link rel="stylesheet" href="css/master.css">
+	
 	<link href='http://fonts.googleapis.com/css?family=Lato|Sanchez' rel='stylesheet' type='text/css'>
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/master.css">
 </head>
-<body>
-	<header>
+<body class="fs-grid">
+	 <header class="header">
 		<div class="logo">Grinders</div>
+	    <div class="fs-row">
+	    <div class="fs-cell-contered">	
 	<h1 class="heading"> Grinders Coffee Co.</h1>
 	<p class="intro">Grinders is where people gather to experience the true spirit of generosity. This is not a term we use lightly, and it’s what keeps our customers coming back for more.</p>
 	</header>
 <section class="menu">
 	
-	<h2>Coffee Bar</h2>
-	<div class="table">
+	<h2>Coffee Bar</h2>	<div class="table">
 		<table>
 		<tr>
 			<td class="spaced2">Poured-Over Coffee</td>
@@ -81,30 +85,44 @@
 			</tr>
 		</table>
 
-</div>
-</section>
+	</div>
+	</section>
+
+
+
 
 	<section class="hours-location">
-		<div class="content">
-			<div class="info">
-			<h3>Hours & Location</h3>
-			<p class="grey">Open 7am - 5pm, 7 days a Week</p>
-			<p class="grey"><a href="410-509-8010" class="tel">410-509-8010</a></p>
-			<p class="grey">Grinders Coffee Co.<br>4511 W 31st St.<br>Baltimore, MD 21232</p>
-			<button>Get Directions</button>
-		</div>
-	     
-		<div class="shoppic">shop picture</div>
+		<div class="fs-row">
+			<div class="fs-cell-centered fs-lg-8">
+				<div class="fs-row">
+					<div class="fs-cell fs-lg-half">
+						<h3>Hours & Location</h3>
+						<p class="grey">Open 7am - 5pm, 7 days a Week</p>
+						<p class="grey"><a href="410-509-8010" class="tel">410-509-8010</a></p>
+						<p class="grey">Grinders Coffee Co.<br>4511 W 31st St.<br>Baltimore, MD 21232</p>
+						<button>Get Directions</button>
+					</div>
+					<div class="fs-cell fs-lg-half">
+						<div class="shoppic">shop picture</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<footer>
-		<p class="foot-pos copyright">&#169;2015 Grinders Coffee Co.</p>
-		<div class="logo-small">logo-small</div>
+
+
+      <footer>
+        <p class="foot-pos copyright">&#169;2015 Grinders Coffee Co.</p>
+			<div class="logo-small">logo-small</div>
 		<p class="foot-pos social">
 			<a href="">Twitter</a> |
 			<a href="">Facebook</a> |
 			<a href="">Instagram</a>
 		</p>
 	</footer>
+<script>
+// (function(){if(typeof FSGridBookmarklet==='undefined'){document.body.appendChild(document.createElement('script')).src='http://beta.formstone.it/js/bookmarklet/grid.js';}else{FSGridBookmarklet();}})();
+</script>
+</div>
 </body>
 </html>
