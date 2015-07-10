@@ -12,6 +12,7 @@
 	footer p.foot-pos, footer div.logo-small{
 		display: block;
 		margin:10px auto;
+
 	}
 	div.info{
 		
@@ -132,8 +133,8 @@ footer{
 	overflow:hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	margin-left: 15%
-
+	margin-left: 15%;
+    
 }
 .grey{
 	color:#666;
@@ -170,12 +171,13 @@ footer{
 	padding-bottom: 100px;
 	line-height:30px;	
 	color: #ccc;
+
 }
 tr{
 	border-bottom: 2px solid #9B761C;
 	display: block;
 	padding: 10px;
-	font-size: 16px
+	font-size: 16px;
 }
 .table{
 	column-count: 2;
@@ -184,7 +186,7 @@ tr{
 	display:inline-block;
 	position: relative;
 	left:50%;
-	margin-left: -300px
+	margin-left: -300px;
 }
 .spaced2{
 	width: 250px;
